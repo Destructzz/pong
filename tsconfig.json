@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "target": "ES6",
+    "module": "ESNext",
     "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node"
-  }
+    "outDir": "./public/js",
+    "rootDir": "./src"
+  },
+  "include": ["src"],
+  "exclude": ["public/js"]
 }
